@@ -17,17 +17,4 @@ class Database {
         //
     }
 
-    // public function getConnection()
-    // {
-    //     if ( !isset( $this->connection ) ) {
-    //         $this->connection = mysqli_connect('localhost', 'root', '', 'native');
-    //     }
-
-    //     return $this->connection;
-    // }
-
-    // public function test()
-    // {
-    //     echo "fuck you !";
-    // }
 }

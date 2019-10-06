@@ -77,7 +77,6 @@
     <?php
         require_once './Http/Routes/Routes.php';
         $conn = new Routes();
-        var_dump($conn->controller);
         $conn->route();
     ?>
 
