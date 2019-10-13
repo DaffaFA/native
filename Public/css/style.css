@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-group {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.welcoming {
+    position: absolute;
+    font-size: 64pt;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -12,7 +12,7 @@ class Routes {
             $this->action = $_GET['action'];
         } else {
             $this->controller = 'Page';
-            $this->action = 'home';
+            $this->action = 'welcome';
         }
     }
 
@@ -22,6 +22,10 @@ class Routes {
         switch($this->controller) {
             case 'Page' :
                 $controller = new PageController();
+            break;
+            case 'Register' :
+                require_once './Http/Models/User.php';
+                $controller = new RegisterController();
             break;
         }
 
